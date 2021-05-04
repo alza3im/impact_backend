@@ -16,4 +16,4 @@ RUN pip install --upgrade pip &&\
 #EXPOSE 8888
 
 # Run app.py at container launch
-#CMD ["jupyter", "notebook"]
+CMD ["jupyter", "notebook"]
